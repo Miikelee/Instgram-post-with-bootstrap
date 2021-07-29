@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/005fc4dd2d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+        <div class="container">
+            <i class="fab fa-instagram text-secondary pr-1"></i>
+            <a class="navbar-brand text-secondary" href="#"> Instagram </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">
+                            <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                                data-target="#exampleModal">
+                                create new post
+                            </button>
+
+                            <!-- Modal -->
+                            
+                        </a>
+                    </li>
+                    <div class="nav-item dropdown btn-sm">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-cog"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Log out</a>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">
+                                                Your post here
+                                            </h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="input-group">
+                                                <textarea class="form-control" aria-label="With textarea"></textarea>
+                                            </div>
+                                            <div>
+                                                <i class="fas fa-camera text-secondary pt-2"></i>
+                                                <i class="fas fa-map-marker-alt text-secondary ml-2 pt-2"></i>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            
+
+                                            <div>
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                                    Cancel
+                                                </button>
+                                                <button type="button" class="btn btn-success">
+                                                    Publish
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <li class="page-item">
+                <a class="page-link" href="index.html" aria-label="Previous">
+                    <i class="fas fa-th text-secondary"></i>
+                </a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="./imagenes.html" aria-label="Next">
+                    <i class="fas fa-square text-secondary"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+<div class="pt-5 bg-light">
+    <div class="card w-50 mx-auto">
+        <div class="card-body d-flex justify-content-between">
+            <h3 class="card-title">First post</h3>
+            <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
+            <h4 class="card-text"><small class="text-muted">07-21</small></h4>
+        </div>
+        <img src="./Imagenes/img1.jpg" class="card-img-top" alt="...">
+        <div class="card-footer">
+            <h5>
+                23 likes
+            </h5>
+            <p>This is my first post of the feed. This is a multiline comment for testing porpouse. I learning to code
+                with <strong>#BreathCode.</strong></p>
+            <div class=" d-flex bd-highlight mb-3 ">
+                <i class="fas fa-heart text-muted p-1 bd-highlight pt-4"></i>
+                <h4 class="card-text p-1 bd-highlight  pt-3 "><small class="text-muted text-left">comment...</small>
+                </h4>
+                <i class="fas fa-ellipsis-v ml-auto p-1 bd-highlight pt-4 text-muted"></i>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="pt-5 bg-light">
+    <div class="card w-50 mx-auto">
+        <div class="card-body d-flex justify-content-between">
+            <h3 class="card-title">Just chillin</h3>
+            <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
+            <h4 class="card-text"><small class="text-muted">06-21</small></h4>
+        </div>
+        <img src="./Imagenes/img2.jpg" class="card-img-top" alt="...">
+        <div class="card-footer">
+            <h5>
+                20k likes
+            </h5>
+            <p> I learning to code with <strong>#BreathCode.</strong></p>
+            <div class=" d-flex bd-highlight mb-3 ">
+                <i class="fas fa-heart text-muted p-1 bd-highlight pt-4"></i>
+                <h4 class="card-text p-1 bd-highlight  pt-3 "><small class="text-muted text-left">comment...</small>
+                </h4>
+                <i class="fas fa-ellipsis-v ml-auto p-1 bd-highlight pt-4 text-muted"></i>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="pt-5 bg-light">
+    <div class="card w-50 mx-auto">
+        <div class="card-body d-flex justify-content-between">
+            <h3 class="card-title">Paradise</h3>
+            <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
+            <h4 class="card-text"><small class="text-muted">05-21</small></h4>
+        </div>
+        <img src="./Imagenes/img3.jpg" class="card-img-top" alt="...">
+        <div class="card-footer">
+            <h5>
+                10k likes
+            </h5>
+            <p>I would like to go there!.. I learning to code with <strong>#BreathCode.</strong></p>
+            <div class=" d-flex bd-highlight mb-3 ">
+                <i class="fas fa-heart text-muted p-1 bd-highlight pt-4"></i>
+                <h4 class="card-text p-1 bd-highlight  pt-3 "><small class="text-muted text-left">comment...</small>
+                </h4>
+                <i class="fas fa-ellipsis-v ml-auto p-1 bd-highlight pt-4 text-muted"></i>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="pt-5 bg-light">
+    <div class="card w-50 mx-auto">
+        <div class="card-body d-flex justify-content-between">
+            <h3 class="card-title">You're thirsty?</h3>
+            <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
+            <h4 class="card-text"><small class="text-muted">04-21</small></h4>
+        </div>
+        <img src="./Imagenes/img4.jpeg" class="card-img-top" alt="...">
+        <div class="card-footer">
+            <h5>
+                5k likes
+            </h5>
+            <p>How much creativity! I learning to code
+                with <strong>#BreathCode.</strong></p>
+            <div class=" d-flex bd-highlight mb-3 ">
+                <i class="fas fa-heart text-muted p-1 bd-highlight pt-4"></i>
+                <h4 class="card-text p-1 bd-highlight  pt-3 "><small class="text-muted text-left">comment...</small>
+                </h4>
+                <i class="fas fa-ellipsis-v ml-auto p-1 bd-highlight pt-4 text-muted"></i>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="pt-5 bg-light">
+    <div class="card w-50 mx-auto">
+        <div class="card-body d-flex justify-content-between">
+            <h3 class="card-title">Bootstrap is awesome!</h3>
+            <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
+            <h4 class="card-text"><small class="text-muted">03-21</small></h4>
+        </div>
+        <img src="./Imagenes/img5.png" class="card-img-top" alt="...">
+        <div class="card-footer">
+            <h5>
+                1M likes
+            </h5>
+            <p> Bootstrap makes work much easier! I learning to code with <strong>#BreathCode.</strong> and <strong>Bootstrap.</strong></p>
+            <div class=" d-flex bd-highlight mb-3 ">
+                <i class="fas fa-heart text-muted p-1 bd-highlight pt-4"></i>
+                <h4 class="card-text p-1 bd-highlight  pt-3 "><small class="text-muted text-left">comment...</small>
+                </h4>
+                <i class="fas fa-ellipsis-v ml-auto p-1 bd-highlight pt-4 text-muted"></i>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="pt-5 bg-light" >
+    <div class="card w-50 mx-auto">
+        <div class="card-body d-flex justify-content-between">
+            <h3 class="card-title">N.A.S.A</h3>
+            <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
+            <h4 class="card-text"><small class="text-muted">02-21</small></h4>
+        </div>
+        <img src="./Imagenes/img6.jpg" class="card-img-top" alt="...">
+        <div class="card-footer">
+            <h5>
+                500k likes
+            </h5>
+            <p>A good view from the heights. I learning to code with <strong>#BreathCode.</strong></p>
+            <div class=" d-flex bd-highlight mb-3 ">
+                <i class="fas fa-heart text-muted p-1 bd-highlight pt-4"></i>
+                <h4 class="card-text p-1 bd-highlight  pt-3 "><small class="text-muted text-left">comment...</small>
+                </h4>
+                <i class="fas fa-ellipsis-v ml-auto p-1 bd-highlight pt-4 text-muted"></i>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="pt-5 bg-light" >
+    <div class="card w-50 mx-auto">
+        <div class="card-body d-flex justify-content-between">
+            <h3 class="card-title">Wonders of nature</h3>
+            <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
+            <h4 class="card-text"><small class="text-muted">01-21</small></h4>
+        </div>
+        <img src="./Imagenes/img7.jpg" class="card-img-top" alt="...">
+        <div class="card-footer">
+            <h5>
+                200k likes
+            </h5>
+            <p>A beautiful snake with bright colors! Awesome! I learning to code with <strong>#BreathCode.</strong></p>
+            <div class=" d-flex bd-highlight mb-3 ">
+                <i class="fas fa-heart text-muted p-1 bd-highlight pt-4"></i>
+                <h4 class="card-text p-1 bd-highlight  pt-3 "><small class="text-muted text-left">comment...</small>
+                </h4>
+                <i class="fas fa-ellipsis-v ml-auto p-1 bd-highlight pt-4 text-muted"></i>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="pt-5 bg-light">
+    <div class="card w-50 mx-auto">
+        <div class="card-body d-flex justify-content-between">
+            <h3 class="card-title">Power and ferocity</h3>
+            <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
+            <h4 class="card-text"><small class="text-muted">12-20</small></h4>
+        </div>
+        <img src="./Imagenes/img8.jpg" class="card-img-top" alt="...">
+        <div class="card-footer">
+            <h5>
+                600k likes
+            </h5>
+            <p> A fierce but beautiful wolf. I learning to code with <strong>#BreathCode.</strong></p>
+            <div class=" d-flex bd-highlight mb-3 ">
+                <i class="fas fa-heart text-muted p-1 bd-highlight pt-4"></i>
+                <h4 class="card-text p-1 bd-highlight  pt-3 "><small class="text-muted text-left">comment...</small>
+                </h4>
+                <i class="fas fa-ellipsis-v ml-auto p-1 bd-highlight pt-4 text-muted"></i>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="pt-5 bg-light">
+    <div class="card w-50 mx-auto">
+        <div class="card-body d-flex justify-content-between">
+            <h3 class="card-title">My first video</h3>
+            <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
+            <h4 class="card-text"><small class="text-muted">05-21</small></h4>
+        </div>
+        <video width="100%" height="300" autoplay muted id="videoId">
+            <source src="https://assets.breatheco.de/apis/video/why-pair-programming" class="py-1" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+        <div class="card-footer">
+            <h5>
+                10 likes
+            </h5>
+            <p>This is my first <strong>video</strong> of the feed. This is a multiline comment for testing porpouse. I learning to code
+                with <strong>#BreathCode.</strong></p>
+            <div class=" d-flex bd-highlight mb-3 ">
+                <i class="fas fa-heart text-muted p-1 bd-highlight pt-4"></i>
+                <h4 class="card-text p-1 bd-highlight  pt-3 "><small class="text-muted text-left">comment...</small>
+                </h4>
+                <i class="fas fa-ellipsis-v ml-auto p-1 bd-highlight pt-4 text-muted"></i>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
